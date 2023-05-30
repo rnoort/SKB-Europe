@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import NewsEvents from "$lib/NewsEvents.svelte";
+    import Applications from "$lib/Applications.svelte";
+    import Reviews from "$lib/Reviews.svelte";
+</script>
+
+
+<Applications />
+<Reviews />
+<NewsEvents />
